@@ -4,7 +4,7 @@ public class App {
     
     public static void main(String[] args) {
     
-        Cat cat = new Cat("Grizabella","white",29);
+        Cat cat = new Cat("Grizabella", "white", 29);
         output(cat.getStringAttributes("#name"));
         output(cat.getStringAttributes("#color"));
         output(cat.getAge());
@@ -14,10 +14,10 @@ public class App {
     
         output("------------------------");
 
-        TomCat cat1 = new TomCat("Alonzo", "grey", 35);
-        output(cat1.getStringAttributes("#name"));
-        output(cat1.getStringAttributes("#color"));
-        output(cat1.getAge());
+        TomCat tomcat = new TomCat("Alonzo", "grey", 35);
+        output(tomcat.getStringAttributes("#name"));
+        output(tomcat.getStringAttributes("#color"));
+        output(tomcat.getAge());
 
     }
 
@@ -30,4 +30,3 @@ public class App {
 
 
 }
-
